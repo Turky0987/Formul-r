@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+section.easy {
+    background-color: #8BC34A;
+}
+
+section.normal {
+    background-color: #FF9800;
+}
+
+section.hard {
+    background-color: #F44336;
+}
+
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 15px;
+    }
+}
